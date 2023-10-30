@@ -1,0 +1,20 @@
+#main-container{
+    margin: auto;
+    width: 68%;
+    padding: 10px;
+}
+#title{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#purpose{
+    text-align: center;
+}
+#title{
+    border-radius: 36px;
+background: linear-gradient(315deg, #d8e0e6, #ffffff);
+box-shadow:  -16px -16px 70px #aab1b5,
+             16px 16px 70px #ffffff;
+}
