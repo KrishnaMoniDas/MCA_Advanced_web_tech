@@ -1,8 +1,8 @@
 #main-container{
     margin: auto;
     width: 90%;
-    padding: 10px;
-
+    padding: 20px;
+    margin-top: 20px;
     border-radius: 32px;
 background: #f1f1f1;
 box-shadow:  7px 7px 14px #606060,
@@ -23,21 +23,21 @@ background: linear-gradient(315deg, #d8e0e6, #ffffff);
 box-shadow:  -20px -20px 70px #aab1b5,
              16px 16px 70px #ffffff; */
     border-radius: 32px;
-    background: #e0e0e0;
-    box-shadow:  7px 7px 14px #9d9d9d,
+    background: hsl(0, 100%, 100%);
+    box-shadow:  7px 7px 14px #9a9a9a,
                 -7px -7px 14px #ffffff;
 }
 .footer{
     margin: auto;
-    width: 90%;
-    padding: 10px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 5px;
     
-    color: white;
-    border-radius: 51px;
-background: linear-gradient(145deg, #343434, #2c2c2c);
-box-shadow:  13px 13px 27px #222222,
-             -13px -13px 27px #404040;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  20px 20px 38px #9b9b9b,
+             -20px -20px 38px #ffffff;
 }
 body{
-    background-color: rgb(172, 172, 172);
+    background-color: white;
 }
