@@ -31,7 +31,7 @@
 
     
     <br>
-    <p id="purpose">Last updated on 1-November-2023</p>
+    <p id="purpose">Last updated on 22-November-2023</p>
     <hr>
     <div id="course-content">
         <ol>
@@ -46,11 +46,12 @@
             <li>Imagemap</li>
             <li>CSS</li>
             <li>Forms</li>
+            <li>JavaScirpt Implementation (Ways to display) </li>
         </ol>
     </div>
 <br>
     <div id="Lists">
-        <h3>Ordered List, Unordered List and Definition List example,</h3>
+        <h3>Lists: Ordered List, Unordered List and Definition List example</h3>
         <p>Ordered List: &lt;OL(orderedlist)&gt;&lt;LI(listitems)&gt;&lt;/LI&gt;&lt;/OL&gt;<br>
             Unordered List: &lt;UL(unorderedlist)&gt;&lt;LI(listitems)&gt;&lt;LI&gt;&lt;UL&gt;<br>
             Definition List: &lt;DL(definitionlist)&gt;&lt;DT(DEFINITIONtERM)&gt;&lt;DT&gt;&lt;DD(Definition)&gt;&lt;DD&gt;&lt;DL&gt; </p>
@@ -103,7 +104,7 @@
     </div>
 <br>
     <div id="css">
-        <h3>CSS Implementation: in order of inline, internal and external,</h3>
+        <h3>CSS Implementation: in order of inline, internal and external</h3>
 
             &lt;link rel="stylesheet" href="style.css"&gt; <br><p>--> style.css file --> h3{ color: black }</p>
             &lt;style&gt;
@@ -117,10 +118,65 @@
 
     </div>
 <br>
+
+
+    <div id="JavaScirpt">
+        <h3>Javascript implementation: 4 Ways to display in Javascript</h3>
+        <br>
+    <ol>
+        <li><b>Get element by ID: </b></li>
+
+        &lt;script&gt;<br>
+            getElementbyId("id of the element").innerHTML = "Hello Javascript!"
+        <br>&lt;/script&gt;
+        <br><br>
+        <li>
+            <b>Document write:</b><br>
+            &lt;script &gt;<br>
+            document.write("Javascript")
+            <br>&lt;/script &gt;
+        </li>
+        <br>
+        <li><b>Window alert: </b> <br>
+            &lt;script &gt;<br>
+            window.alert("This is an alert!")
+            <br>&lt;/script &gt;<br><br>
+        </li>
+        <br>
+        <li><b>Console Log: </b> <br>
+            &lt;script &gt;<br>
+            let course = "MCA" <br>
+            console.log("Hello "+course)
+            <br>&lt;/script &gt;<br><br>
+        </li>
+        <br>
+        <li>
+            <b>Example: </b> <br>
+            &lt;script&gt;
+                function Hello(){
+                    window.alert("inside function")
+                }
+            &lt;/script&gt;
+            &lt;input type="button" value="click here" onclick="Hello()"&gt; <br>
+            <script>
+                function Hello(){
+                    window.alert("Inside Hello() function")
+                }
+            </script> <br>
+            <input type="button" value="Click here" onclick="Hello()">          
+        </li>
+
+
+    </ol>
+    </div>
+
+   
+
+<!-- main container -->
 </div>
 </body>
 <br>
 <div class="footer">
-<footer style="text-align: center; font-size: 15px;">developed by Krishna Moni Das</footer>
+<footer style="text-align: center; font-size: 14px; font-weight: 600;">Developed by <a href="https://www.linkedin.com/in/krishna-moni-das-2ab322210/" target="_blank">Krishna Moni Das</a></footer>
 </div>
 </html>

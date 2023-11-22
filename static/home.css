@@ -30,13 +30,12 @@ box-shadow:  -20px -20px 70px #aab1b5,
 .footer{
     margin: auto;
     margin-bottom: 10px;
-    width: 40%;
+    width: 80%;
     padding: 5px;
-    
     border-radius: 50px;
-background: linear-gradient(145deg, #f0f0f0, #cacaca);
-box-shadow:  20px 20px 38px #9b9b9b,
-             -20px -20px 38px #ffffff;
+    background: linear-gradient(145deg, #ffffff, #e7e7e7);
+    box-shadow:  20px 20px 38px #202020,
+             -20px -20px 38px #fafafa;
 }
 body{
     background-color: white;
